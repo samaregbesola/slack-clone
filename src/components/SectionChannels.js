@@ -7,8 +7,7 @@ const SectionChannels = () => {
   return (
     <section className="bg-white w-full mt-[6rem]">
       {channelItems.map(items => {
-        const { id, heading, link, text, images, order, video, caption } =
-          items;
+        const { id, heading, link, text, images, order, video } = items;
         return (
           <div
             key={id}

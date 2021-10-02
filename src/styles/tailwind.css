@@ -25,6 +25,26 @@
   @apply py-5 px-10 tracking-wider;
 }
 
-.red {
-  outline: 2px solid red;
+.activeSlide {
+  opacity: 1;
+  transform: translateX(-50%);
+}
+.lastSlide {
+  transform: translateX(-100%);
+}
+.nextSlide {
+  transform: translateX(100%);
+}
+
+@media only screen and (min-width: 640px) {
+  .activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .lastSlide {
+    transform: translateX(0);
+  }
+  .nextSlide {
+    transform: translateX(0);
+  }
 }
