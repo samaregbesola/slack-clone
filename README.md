@@ -3,7 +3,7 @@
 A clone of Slack's landing page using _ReactJS_ and _TailwindCSS._
 
 ## Screenshot
-![](https://doc-0c-00-docs.googleusercontent.com/docs/securesc/6qfqg8o363mgl32krap9gnn91nd9ijcg/frbpt7j6v7s90dbc32hfaad61046sd8m/1633184550000/06911554804434371960/06911554804434371960/1U7Sgqj2FqnyQhpkxaI9R9DeFfdIIOnrl?e=download&authuser=0&nonce=5srpvfri21b04&user=06911554804434371960&hash=qefjjfckqb5lutqgf81ilo7g3stlf8of)
+![](https://source.unsplash.com/random)
 
 ## Live Site
 - [Slack Clone](https://slckclone.netlify.app)
