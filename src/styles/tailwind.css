@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    .clip-path-ellipse {
+      clip-path: ellipse(105% 100% at center top);
+    }
+    .clip-path-ellipse-2 {
+      clip-path: ellipse(75% 100% at center top);
+    }
+  }
+}
+
+.btn {
+  @apply cursor-pointer text-sm uppercase font-bold block border rounded-md;
+}
+
+.small {
+  @apply py-3 px-4;
+}
+
+.big {
+  @apply py-5 px-10 tracking-wider;
+}
+
+.red {
+  outline: 2px solid red;
+}
