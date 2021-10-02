@@ -3,7 +3,7 @@
 A clone of Slack's landing page using _ReactJS_ and _TailwindCSS._
 
 ## Screenshot
-![](https://previews.dropbox.com/p/thumb/ABSNaaGNiLQtc3qeVXhW4-yVYpmI9UD9nqSnZg1jaoUDFW0i3_RvBS7iENTP35bA6oN7QanX-2d-mI_AOGzmswBn4UM4WV4-iUioq6kbjWG98zC06IZDkHo7ddALtLH89Lw6XyzlvZLdZ-YN4VjlJyYRe8A-jnDn2XIZsKoAeIcKOVW02QKFWzairIx6za9KCcexiEHtSBdwx6NRTEJTnrqkoDj7xhNA78-I2u-slBX8L0zkdmlrjVMmbN5LOWnasG44Ysi69BfDdJ3k8qqJ6tdppK6Hf3snoDuGNI4TAG5QAU6lR2tVmVVYrSeH8tLNy0h5nYBWDOl76L12l2OC-Jt7kz9cdVM9qQHOUDih2WDuOx8m8h20yH_48XchfIy0TR0/p.png?fv_content=true&size_mode=5)
+![](https://doc-0c-00-docs.googleusercontent.com/docs/securesc/6qfqg8o363mgl32krap9gnn91nd9ijcg/frbpt7j6v7s90dbc32hfaad61046sd8m/1633184550000/06911554804434371960/06911554804434371960/1U7Sgqj2FqnyQhpkxaI9R9DeFfdIIOnrl?e=download&authuser=0&nonce=5srpvfri21b04&user=06911554804434371960&hash=qefjjfckqb5lutqgf81ilo7g3stlf8of)
 
 ## Live Site
 - [Slack Clone](https://slckclone.netlify.app)
