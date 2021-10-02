@@ -3,7 +3,7 @@
 A clone of Slack's landing page using _ReactJS_ and _TailwindCSS._
 
 ## Screenshot
-![](https://i.ibb.co/WnQsLtr/Slack-is-where-the-future-works-localhost.png)
+![](https://i.ibb.co/SstG4zn/Slack-is-where-the-future-works-localhost.png)
 
 ## Live Site
 - [Slack Clone](https://slckclone.netlify.app)
