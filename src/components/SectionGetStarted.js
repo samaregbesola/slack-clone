@@ -12,7 +12,7 @@ const GetStarted = () => {
   return (
     <section className="bg-peachBg w-full py-20">
       <div className="w-11/12 mx-auto">
-        <h2 className="capitalize text-3xl text-center font-bold mb-12 md:mb-14">
+        <h2 className="capitalize text-3xl text-left sm:text-center font-bold mb-12 md:mb-14">
           Get started with slack
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 w-auto mb-10 md:gap-12 lg:gap-16  lg:grid-cols-3">
