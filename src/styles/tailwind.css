@@ -14,7 +14,7 @@
 }
 
 .btn {
-  @apply cursor-pointer text-sm uppercase font-bold block border rounded-md;
+  @apply cursor-pointer text-sm uppercase font-bold block border rounded-md transition-all ease-linear duration-300 hover:scale-95;
 }
 
 .small {
@@ -25,8 +25,16 @@
   @apply py-5 px-10 tracking-wider;
 }
 
+.linkHover {
+  @apply hover:pb-[2px] hover:border-b-2 transition-all ease-in-out duration-100 border-sidebarHighlightColor;
+}
+
 .grid-container--fit {
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+}
+
+.dropdownBefore {
+  @apply before:contents before:bg-transparent before:h-0 before:w-0 before:top-[-5px];
 }
 
 .activeSlide {

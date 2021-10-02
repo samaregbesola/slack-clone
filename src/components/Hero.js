@@ -1,12 +1,13 @@
 import React from 'react';
-
 import heroImage from '../assets/images/slack-campaign-hero.jpg';
 import googleSVG from '../assets/images/google.svg';
 import { logos } from '../utils/logos';
+import { useGlobalContext } from '../context/Context';
 
 const Hero = () => {
+  const { closeDropdown } = useGlobalContext();
   return (
-    <section className="bg-peachBg min-h-screen">
+    <section onMouseOver={closeDropdown} className="bg-peachBg min-h-screen">
       <div className="mx-auto pt-28 pb-20 w-11/12 md:grid md:grid-cols-2 xlDesktop:grid-cols-xlDesktop flex flex-col items-start gap-[4%]">
         <header className="lg:flex-grow w-full flex flex-col md:items-start text-left mb-20 md:mb-0 items-center">
           <h1 className="font-bold mb-4 lg:text-6xl sm:text-5xl text-4xl  text-gray-900 tracking-[-1.5px]">

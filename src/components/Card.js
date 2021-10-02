@@ -4,7 +4,7 @@ import rightArrow from '../assets/images/rightArrow.svg';
 const Card = ({ img, subHeading, heading, cta, position }) => {
   return (
     <article
-      className={`shadow-sm ${position} mb-2  opacity-0 sm:opacity-100 p-4 z-1 min-w-[285px] sm:w-auto min-h-[420px] absolute top-0 left-[50%] sm:left-0 sm:translate-x-0 sm:relative cursor-pointer sm:max-w-screen-cta bg-white lg:max-w-screen-cta transition-all scale-100 duration-300 transform sm:hover:scale-[1.02] hover:shadow-md ease-in-out`}
+      className={`shadow-sm ${position} mb-2  opacity-0 sm:opacity-100 p-4 z-1 min-w-[285px] sm:w-auto min-h-[420px] absolute top-0 left-[50%] sm:left-0 sm:translate-x-0 sm:relative cursor-pointer sm:max-w-screen-cta bg-white transition-all scale-100 duration-300 transform sm:hover:scale-[1.02] hover:shadow-md ease-in-out`}
     >
       <figure className="overflow-hidden w-full relative h-[13rem]">
         <img

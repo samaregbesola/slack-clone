@@ -9,6 +9,7 @@ import { useGlobalContext } from '../context/Context';
 
 const Navbar = () => {
   const { openDropdown, openMobileNavMenu } = useGlobalContext();
+
   return (
     <>
       <nav className="w-full bg-transparent h-20 text-attachmentColor p-0 z-10 absolute top-0">
@@ -21,7 +22,7 @@ const Navbar = () => {
           <div className="hidden desktop:flex justify-between items-center flex-1">
             <ul className="flex font-bold text-sm capitalize cursor-pointer">
               <li
-                className="mr-8 capitalize flex items-center relative"
+                className="mr-8 capitalize flex items-center relative drop"
                 onMouseOver={openDropdown}
               >
                 product
@@ -29,7 +30,7 @@ const Navbar = () => {
                   <img src={ArrowDown} alt="arrow down" />
                 </span>
               </li>
-              <NavDropDown />
+              <NavDropDown className="drop" />
               <li className="mr-8">enterprise</li>
               <li className="mr-8">resources</li>
               <li className="">pricing</li>

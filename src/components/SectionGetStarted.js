@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { cta } from '../utils/cta';
+import { cta, getStarted } from '../utils/cta';
 import Card from './Card';
 
 const GetStarted = () => {
@@ -10,9 +10,26 @@ const GetStarted = () => {
   };
 
   return (
-    <section className="bg-peachBg w-full py-5">
+    <section className="bg-peachBg w-full py-20">
       <div className="w-11/12 mx-auto">
-        <div className="flex justify-center relative h-[450px] sm:h-auto w-full overflow-hidden sm:overflow-auto flex-wrap sm:grid-container--fit gap-5">
+        <h2 className="capitalize text-3xl text-center font-bold mb-12 md:mb-14">
+          Get started with slack
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 w-auto mb-10 md:gap-12 lg:gap-16  lg:grid-cols-3">
+          {getStarted.map(items => {
+            const { id, heading, text } = items;
+            return (
+              <article key={id} className="mb-10 sm:mb-0">
+                <span className="w-[40px] h-[40px] rounded-md font-bold text-xl bg-articleTheme-primary text-white p-2 grid place-content-center mb-5">
+                  {id}
+                </span>
+                <h3 className="text-xl font-bold mb-5"> {heading}</h3>
+                <p className="mb-5 max-w-[350px]">{text}</p>
+              </article>
+            );
+          })}
+        </div>
+        <div className="flex justify-center relative h-[450px] sm:h-auto w-full overflow-hidden sm:overflow-auto flex-wrap sm:grid-container--fit sm:gap-10 lg:gap-5">
           {cta.map((items, index) => {
             let position = 'nextSlide';
             if (cardIndex === index) {

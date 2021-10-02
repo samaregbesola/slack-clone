@@ -20,7 +20,7 @@ const SectionChannels = () => {
               <p className="mb-5 font-semibold">{text}</p>
               <a
                 href="/"
-                className="mb-10 text-sidebarHighlightColor font-semibold"
+                className="mb-10 linkHover text-sidebarHighlightColor font-semibold"
               >
                 {link}
                 <span className="inline-block ml-2 font-normal">
