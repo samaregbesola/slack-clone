@@ -25,6 +25,10 @@
   @apply py-5 px-10 tracking-wider;
 }
 
+.grid-container--fit {
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+}
+
 .activeSlide {
   opacity: 1;
   transform: translateX(-50%);

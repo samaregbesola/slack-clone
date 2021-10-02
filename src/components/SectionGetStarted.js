@@ -12,7 +12,7 @@ const GetStarted = () => {
   return (
     <section className="bg-peachBg w-full py-5">
       <div className="w-11/12 mx-auto">
-        <div className="flex relative h-[450px] sm:h-auto w-full overflow-hidden sm:grid sm:grid-cols-2 lg:grid-cols-4 md:gap-5">
+        <div className="flex justify-center relative h-[450px] sm:h-auto w-full overflow-hidden sm:overflow-auto flex-wrap sm:grid-container--fit gap-5">
           {cta.map((items, index) => {
             let position = 'nextSlide';
             if (cardIndex === index) {

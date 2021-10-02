@@ -10,7 +10,7 @@ const Card = ({ img, subHeading, heading, cta, position }) => {
         <img
           src={img}
           alt="Slack app used on a phone"
-          className="w-auto object-cover"
+          className="object-cover"
           loading="lazy"
         />
       </figure>
