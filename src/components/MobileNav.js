@@ -25,8 +25,7 @@ const MobileNav = () => {
         <div className="mx-auto mt-10 overflow-y-scroll w-11/12 pr-2 pb-[40vh]">
           <nav className="outline-0 flex flex-col">
             <ul
-              className="mx-auto w-full font-semibold p-0"
-              style={{ fontSize: '1.1rem' }}
+              className="mx-auto w-full font-semibold p-0 text-[1.1rem]"
             >
               <li className="w-full mb-7 ">
                 <span
@@ -101,7 +100,7 @@ const MobileNav = () => {
             SIGN IN
           </button>
           <button className="btn big w-full border-articleTheme-primary bg-articleTheme-primary text-white mb-5">
-            SIGN IN
+            DOWNLOAD SLACK
           </button>
         </div>
       )}
