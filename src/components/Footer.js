@@ -15,7 +15,7 @@ import FooterList from './FooterList';
 const Footer = () => {
   return (
     <footer className="w-full p-0">
-      <div className="pt-14 w-11/12 mx-auto">
+      <div className="pt-14 w-11/12 mx-auto max-w-[76.875rem]">
         <div className="w-full lg:flex lg:justify-between lg:items-start">
           <img
             src={slackIcon}
