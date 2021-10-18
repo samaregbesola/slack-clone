@@ -6,7 +6,7 @@ const SectionMoment = () => {
   return (
     <section className="p-0 w-full relative">
       <div className="bg-peachBg absolute top-0 left-0 w-full h-[30%] md:h-full miniDesktop:h-[85%] z-[-1]"></div>
-      <div className="w-11/12 mx-auto grid md:grid-cols-moment xxlDesktop:grid-cols-section md:gap-[30px] xxl:gap-[1.2rem] pb-10">
+      <div className="w-11/12 mx-auto max-w-[76.875rem] grid md:grid-cols-moment xxlDesktop:grid-cols-section md:gap-[30px] xxl:gap-[1.2rem] pb-10">
         <div className="m-0 grid justify-start items-start">
           <a href="/" className="grid place-items-center relative m-auto">
             <img
