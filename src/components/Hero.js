@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <section className="w-11/12 mx-auto">
+      <section className="w-11/12 mx-auto max-w-[76.875rem]>
         <div className=" pb-20 flex flex-1 items-center gap-5 md:gap-10  justify-around md:justify-between flex-wrap md:flex-nowrap">
           {logos.map(logo => {
             return (
