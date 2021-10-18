@@ -11,7 +11,7 @@ const SectionChannels = () => {
         return (
           <div
             key={id}
-            className="w-11/12 mx-auto grid items-center miniDesktop:grid-cols-section2 miniDesktop:justify-between mb-12 md:mb-[6rem]"
+            className="w-11/12 max-w-[76.875rem] mx-auto grid items-center miniDesktop:grid-cols-section2 miniDesktop:justify-between mb-12 md:mb-[6rem]"
           >
             <div className="max-w-[500px]">
               <h2 className="mb-5 font-bold text-2xl md:text-[2rem]">
