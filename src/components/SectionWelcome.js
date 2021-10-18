@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <section className="h-auto clip-path-ellipse lg:clip-path-ellipse-2 pt-20 pb-24  bg-articleTheme-primary text-white md:py-20 min-h-[375px]">
-      <div className="mx-auto w-11/12">
+      <div className="mx-auto w-11/12 max-w-[76.875rem]">
         <h3 className="text-center mb-8 text-3xl md:text-4xl lg:text-5xl font-bold">
           Welcome to the future of work
         </h3>
