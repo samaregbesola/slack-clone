@@ -7,7 +7,7 @@ import { useGlobalContext } from '../context/Context';
 const Hero = () => {
   const { closeDropdown } = useGlobalContext();
   return (
-    <section onMouseOver={closeDropdown} className="bg-peachBg min-h-screen">
+    <section onMouseOver={closeDropdown} className="bg-peachBg">
       <div className="mx-auto w-11/12 max-w-[76.875rem] pt-28 pb-20 md:grid md:grid-cols-2 xlDesktop:grid-cols-xlDesktop flex flex-col items-start gap-[4%]">
         <header className="lg:flex-grow w-full flex flex-col md:items-start text-left mb-20 md:mb-0 items-center">
           <h1 className="font-bold mb-4 lg:text-6xl sm:text-5xl text-4xl  text-gray-900 tracking-[-1.5px]">
